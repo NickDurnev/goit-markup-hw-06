@@ -240,6 +240,7 @@ svg {
   transform: translate(-50%, -50%) scale(1.2);
 }
 .modal {
+  padding: 40px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -278,8 +279,7 @@ svg {
   fill: var(--accent-color);
 }
 .modal-text {
-  padding-top: 40px;
-  margin-bottom: 30px;
+  margin-bottom: 12px;
   font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
@@ -288,16 +288,13 @@ svg {
 .callback-form {
   display: flex;
   flex-direction: column;
-  margin: auto;
-  align-items: center;
-  width: 448px;
+  ju
 }
 .callback-field + .callback-field {
-  margin-top: 28px;
+  margin-top: 10px;
 }
 .callback-field {
   position: relative;
-  width: inherit;
 }
 .callback-input {
   width: 100%;
@@ -320,14 +317,12 @@ svg {
   left: 15px;
   width: 18px;
   height: 18px;
-  transform: translateY(-50%);
   transition: fill 250ms var(--animations-function-time);
 }
 .callback-label {
-  position: absolute;
-  top: -11px;
-  left: 0;
-  transform: translateY(-50%);
+  display: block;
+  margin-bottom: 4px;
+  text-align: left;
 
   font-size: 12px;
   line-height: 1.16;
@@ -359,8 +354,10 @@ svg {
   position: relative;
   display: flex;
   align-items: center;
+  justify-content: center;
   margin-top: 20px;
   margin-bottom: 34px;
+
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -567,6 +564,10 @@ svg {
   display: flex;
   align-items: baseline;
 }
+.footer-contact-block {
+  flex-grow: 1;
+}
+
 .footer-logo {
   display: block;
   margin-bottom: 20px;
@@ -640,6 +641,7 @@ svg {
   margin-bottom: 20px;
 }
 .subscription-button {
+  margin-left: 12px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -657,7 +659,6 @@ svg {
 .subscription-email-input {
   width: 358px;
   padding: 14px 16px;
-  margin-right: 12px;
 
   letter-spacing: 0.03em;
   line-height: 1.25;
